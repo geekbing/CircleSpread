@@ -8,20 +8,105 @@
 
 /* Begin PBXBuildFile section */
 		379356971D25F812008B6975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379356961D25F812008B6975 /* AppDelegate.swift */; };
-		379356991D25F812008B6975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379356981D25F812008B6975 /* ViewController.swift */; };
-		3793569C1D25F812008B6975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3793569A1D25F812008B6975 /* Main.storyboard */; };
 		3793569E1D25F812008B6975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3793569D1D25F812008B6975 /* Assets.xcassets */; };
 		379356A11D25F812008B6975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3793569F1D25F812008B6975 /* LaunchScreen.storyboard */; };
+		379356A91D25F85C008B6975 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379356A81D25F85C008B6975 /* Main.swift */; };
+		379356AC1D25F91B008B6975 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379356AB1D25F91B008B6975 /* Second.swift */; };
+		379357791D26B9CD008B6975 /* UINavigationController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793573C1D26B9CD008B6975 /* UINavigationController+XWTransition.m */; };
+		3793577A1D26B9CD008B6975 /* UIViewController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793573E1D26B9CD008B6975 /* UIViewController+XWTransition.m */; };
+		3793577B1D26B9CD008B6975 /* XWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357411D26B9CD008B6975 /* XWInteractiveTransition.m */; };
+		3793577C1D26B9CD008B6975 /* XWTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357431D26B9CD008B6975 /* XWTransitionAnimator.m */; };
+		3793577D1D26B9CD008B6975 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 379357451D26B9CD008B6975 /* line.png */; };
+		3793577E1D26B9CD008B6975 /* mask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 379357461D26B9CD008B6975 /* mask.jpg */; };
+		3793577F1D26B9CD008B6975 /* restrictedshine.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 379357471D26B9CD008B6975 /* restrictedshine.tiff */; };
+		379357801D26B9CD008B6975 /* XWCircleSpreadAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793574A1D26B9CD008B6975 /* XWCircleSpreadAnimator.m */; };
+		379357811D26B9CD008B6975 /* XWCoolAnimator+XWExplode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793574D1D26B9CD008B6975 /* XWCoolAnimator+XWExplode.m */; };
+		379357821D26B9CD008B6975 /* XWCoolAnimator+XWFold.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793574F1D26B9CD008B6975 /* XWCoolAnimator+XWFold.m */; };
+		379357831D26B9CD008B6975 /* XWCoolAnimator+XWLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357511D26B9CD008B6975 /* XWCoolAnimator+XWLines.m */; };
+		379357841D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357531D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.m */; };
+		379357851D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357551D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.m */; };
+		379357861D26B9CD008B6975 /* XWCoolAnimator+XWPortal.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357571D26B9CD008B6975 /* XWCoolAnimator+XWPortal.m */; };
+		379357871D26B9CD008B6975 /* XWCoolAnimator+XWScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357591D26B9CD008B6975 /* XWCoolAnimator+XWScanning.m */; };
+		379357881D26B9CD008B6975 /* XWCoolAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793575B1D26B9CD008B6975 /* XWCoolAnimator.m */; };
+		379357891D26B9CD008B6975 /* XWDrawerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793575E1D26B9CD008B6975 /* XWDrawerAnimator.m */; };
+		3793578A1D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357611D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.m */; };
+		3793578B1D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357631D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.m */; };
+		3793578C1D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357651D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.m */; };
+		3793578D1D26B9CD008B6975 /* XWFilterAnimator+XWFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357671D26B9CD008B6975 /* XWFilterAnimator+XWFlash.m */; };
+		3793578E1D26B9CD008B6975 /* XWFilterAnimator+XWMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357691D26B9CD008B6975 /* XWFilterAnimator+XWMask.m */; };
+		3793578F1D26B9CD008B6975 /* XWFilterAnimator+XWMod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793576B1D26B9CD008B6975 /* XWFilterAnimator+XWMod.m */; };
+		379357901D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793576D1D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.m */; };
+		379357911D26B9CD008B6975 /* XWFilterAnimator+XWRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793576F1D26B9CD008B6975 /* XWFilterAnimator+XWRipple.m */; };
+		379357921D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357711D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.m */; };
+		379357931D26B9CD008B6975 /* XWFilterAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357731D26B9CD008B6975 /* XWFilterAnimator.m */; };
+		379357941D26B9CD008B6975 /* XWFilterTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357751D26B9CD008B6975 /* XWFilterTransitionView.m */; };
+		379357951D26B9CD008B6975 /* XWMagicMoveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 379357781D26B9CD008B6975 /* XWMagicMoveAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		379356931D25F812008B6975 /* CircleSpread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleSpread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379356961D25F812008B6975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		379356981D25F812008B6975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3793569B1D25F812008B6975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3793569D1D25F812008B6975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379356A01D25F812008B6975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379356A21D25F812008B6975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379356A81D25F85C008B6975 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		379356AB1D25F91B008B6975 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		379357381D26B991008B6975 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		3793573B1D26B9CD008B6975 /* UINavigationController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XWTransition.h"; sourceTree = "<group>"; };
+		3793573C1D26B9CD008B6975 /* UINavigationController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XWTransition.m"; sourceTree = "<group>"; };
+		3793573D1D26B9CD008B6975 /* UIViewController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWTransition.h"; sourceTree = "<group>"; };
+		3793573E1D26B9CD008B6975 /* UIViewController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWTransition.m"; sourceTree = "<group>"; };
+		379357401D26B9CD008B6975 /* XWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInteractiveTransition.h; sourceTree = "<group>"; };
+		379357411D26B9CD008B6975 /* XWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInteractiveTransition.m; sourceTree = "<group>"; };
+		379357421D26B9CD008B6975 /* XWTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTransitionAnimator.h; sourceTree = "<group>"; };
+		379357431D26B9CD008B6975 /* XWTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTransitionAnimator.m; sourceTree = "<group>"; };
+		379357451D26B9CD008B6975 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		379357461D26B9CD008B6975 /* mask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mask.jpg; sourceTree = "<group>"; };
+		379357471D26B9CD008B6975 /* restrictedshine.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restrictedshine.tiff; sourceTree = "<group>"; };
+		379357491D26B9CD008B6975 /* XWCircleSpreadAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCircleSpreadAnimator.h; sourceTree = "<group>"; };
+		3793574A1D26B9CD008B6975 /* XWCircleSpreadAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCircleSpreadAnimator.m; sourceTree = "<group>"; };
+		3793574C1D26B9CD008B6975 /* XWCoolAnimator+XWExplode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWExplode.h"; sourceTree = "<group>"; };
+		3793574D1D26B9CD008B6975 /* XWCoolAnimator+XWExplode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWExplode.m"; sourceTree = "<group>"; };
+		3793574E1D26B9CD008B6975 /* XWCoolAnimator+XWFold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWFold.h"; sourceTree = "<group>"; };
+		3793574F1D26B9CD008B6975 /* XWCoolAnimator+XWFold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWFold.m"; sourceTree = "<group>"; };
+		379357501D26B9CD008B6975 /* XWCoolAnimator+XWLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWLines.h"; sourceTree = "<group>"; };
+		379357511D26B9CD008B6975 /* XWCoolAnimator+XWLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWLines.m"; sourceTree = "<group>"; };
+		379357521D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWMiddlePageFlip.h"; sourceTree = "<group>"; };
+		379357531D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWMiddlePageFlip.m"; sourceTree = "<group>"; };
+		379357541D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWPageFlip.h"; sourceTree = "<group>"; };
+		379357551D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWPageFlip.m"; sourceTree = "<group>"; };
+		379357561D26B9CD008B6975 /* XWCoolAnimator+XWPortal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWPortal.h"; sourceTree = "<group>"; };
+		379357571D26B9CD008B6975 /* XWCoolAnimator+XWPortal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWPortal.m"; sourceTree = "<group>"; };
+		379357581D26B9CD008B6975 /* XWCoolAnimator+XWScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWScanning.h"; sourceTree = "<group>"; };
+		379357591D26B9CD008B6975 /* XWCoolAnimator+XWScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWScanning.m"; sourceTree = "<group>"; };
+		3793575A1D26B9CD008B6975 /* XWCoolAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCoolAnimator.h; sourceTree = "<group>"; };
+		3793575B1D26B9CD008B6975 /* XWCoolAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCoolAnimator.m; sourceTree = "<group>"; };
+		3793575D1D26B9CD008B6975 /* XWDrawerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawerAnimator.h; sourceTree = "<group>"; };
+		3793575E1D26B9CD008B6975 /* XWDrawerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawerAnimator.m; sourceTree = "<group>"; };
+		379357601D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWBarSwipe.h"; sourceTree = "<group>"; };
+		379357611D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWBarSwipe.m"; sourceTree = "<group>"; };
+		379357621D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWBoxBlur.h"; sourceTree = "<group>"; };
+		379357631D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWBoxBlur.m"; sourceTree = "<group>"; };
+		379357641D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWCopyMachine.h"; sourceTree = "<group>"; };
+		379357651D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWCopyMachine.m"; sourceTree = "<group>"; };
+		379357661D26B9CD008B6975 /* XWFilterAnimator+XWFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWFlash.h"; sourceTree = "<group>"; };
+		379357671D26B9CD008B6975 /* XWFilterAnimator+XWFlash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWFlash.m"; sourceTree = "<group>"; };
+		379357681D26B9CD008B6975 /* XWFilterAnimator+XWMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWMask.h"; sourceTree = "<group>"; };
+		379357691D26B9CD008B6975 /* XWFilterAnimator+XWMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWMask.m"; sourceTree = "<group>"; };
+		3793576A1D26B9CD008B6975 /* XWFilterAnimator+XWMod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWMod.h"; sourceTree = "<group>"; };
+		3793576B1D26B9CD008B6975 /* XWFilterAnimator+XWMod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWMod.m"; sourceTree = "<group>"; };
+		3793576C1D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWPageCurl.h"; sourceTree = "<group>"; };
+		3793576D1D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWPageCurl.m"; sourceTree = "<group>"; };
+		3793576E1D26B9CD008B6975 /* XWFilterAnimator+XWRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWRipple.h"; sourceTree = "<group>"; };
+		3793576F1D26B9CD008B6975 /* XWFilterAnimator+XWRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWRipple.m"; sourceTree = "<group>"; };
+		379357701D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWSwipe.h"; sourceTree = "<group>"; };
+		379357711D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWSwipe.m"; sourceTree = "<group>"; };
+		379357721D26B9CD008B6975 /* XWFilterAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFilterAnimator.h; sourceTree = "<group>"; };
+		379357731D26B9CD008B6975 /* XWFilterAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFilterAnimator.m; sourceTree = "<group>"; };
+		379357741D26B9CD008B6975 /* XWFilterTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFilterTransitionView.h; sourceTree = "<group>"; };
+		379357751D26B9CD008B6975 /* XWFilterTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFilterTransitionView.m; sourceTree = "<group>"; };
+		379357771D26B9CD008B6975 /* XWMagicMoveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMagicMoveAnimator.h; sourceTree = "<group>"; };
+		379357781D26B9CD008B6975 /* XWMagicMoveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMagicMoveAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +139,150 @@
 		379356951D25F812008B6975 /* CircleSpread */ = {
 			isa = PBXGroup;
 			children = (
+				379356AA1D25F908008B6975 /* Support */,
+				379356A81D25F85C008B6975 /* Main.swift */,
+				379356AB1D25F91B008B6975 /* Second.swift */,
+			);
+			path = CircleSpread;
+			sourceTree = "<group>";
+		};
+		379356AA1D25F908008B6975 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				379357381D26B991008B6975 /* bridge.h */,
+				379357391D26B9CD008B6975 /* XWTransition */,
 				379356961D25F812008B6975 /* AppDelegate.swift */,
-				379356981D25F812008B6975 /* ViewController.swift */,
-				3793569A1D25F812008B6975 /* Main.storyboard */,
 				3793569D1D25F812008B6975 /* Assets.xcassets */,
 				3793569F1D25F812008B6975 /* LaunchScreen.storyboard */,
 				379356A21D25F812008B6975 /* Info.plist */,
 			);
-			path = CircleSpread;
+			name = Support;
+			sourceTree = "<group>";
+		};
+		379357391D26B9CD008B6975 /* XWTransition */ = {
+			isa = PBXGroup;
+			children = (
+				3793573A1D26B9CD008B6975 /* Category */,
+				3793573F1D26B9CD008B6975 /* Main */,
+				379357441D26B9CD008B6975 /* Resoures */,
+				379357481D26B9CD008B6975 /* XWCircleSpreadAnimator */,
+				3793574B1D26B9CD008B6975 /* XWCoolAnimator */,
+				3793575C1D26B9CD008B6975 /* XWDrawerAnimator */,
+				3793575F1D26B9CD008B6975 /* XWFilterAnimator */,
+				379357761D26B9CD008B6975 /* XWMagicMoveAnimator */,
+			);
+			path = XWTransition;
+			sourceTree = "<group>";
+		};
+		3793573A1D26B9CD008B6975 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3793573B1D26B9CD008B6975 /* UINavigationController+XWTransition.h */,
+				3793573C1D26B9CD008B6975 /* UINavigationController+XWTransition.m */,
+				3793573D1D26B9CD008B6975 /* UIViewController+XWTransition.h */,
+				3793573E1D26B9CD008B6975 /* UIViewController+XWTransition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3793573F1D26B9CD008B6975 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				379357401D26B9CD008B6975 /* XWInteractiveTransition.h */,
+				379357411D26B9CD008B6975 /* XWInteractiveTransition.m */,
+				379357421D26B9CD008B6975 /* XWTransitionAnimator.h */,
+				379357431D26B9CD008B6975 /* XWTransitionAnimator.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		379357441D26B9CD008B6975 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				379357451D26B9CD008B6975 /* line.png */,
+				379357461D26B9CD008B6975 /* mask.jpg */,
+				379357471D26B9CD008B6975 /* restrictedshine.tiff */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		379357481D26B9CD008B6975 /* XWCircleSpreadAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				379357491D26B9CD008B6975 /* XWCircleSpreadAnimator.h */,
+				3793574A1D26B9CD008B6975 /* XWCircleSpreadAnimator.m */,
+			);
+			path = XWCircleSpreadAnimator;
+			sourceTree = "<group>";
+		};
+		3793574B1D26B9CD008B6975 /* XWCoolAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				3793574C1D26B9CD008B6975 /* XWCoolAnimator+XWExplode.h */,
+				3793574D1D26B9CD008B6975 /* XWCoolAnimator+XWExplode.m */,
+				3793574E1D26B9CD008B6975 /* XWCoolAnimator+XWFold.h */,
+				3793574F1D26B9CD008B6975 /* XWCoolAnimator+XWFold.m */,
+				379357501D26B9CD008B6975 /* XWCoolAnimator+XWLines.h */,
+				379357511D26B9CD008B6975 /* XWCoolAnimator+XWLines.m */,
+				379357521D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.h */,
+				379357531D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.m */,
+				379357541D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.h */,
+				379357551D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.m */,
+				379357561D26B9CD008B6975 /* XWCoolAnimator+XWPortal.h */,
+				379357571D26B9CD008B6975 /* XWCoolAnimator+XWPortal.m */,
+				379357581D26B9CD008B6975 /* XWCoolAnimator+XWScanning.h */,
+				379357591D26B9CD008B6975 /* XWCoolAnimator+XWScanning.m */,
+				3793575A1D26B9CD008B6975 /* XWCoolAnimator.h */,
+				3793575B1D26B9CD008B6975 /* XWCoolAnimator.m */,
+			);
+			path = XWCoolAnimator;
+			sourceTree = "<group>";
+		};
+		3793575C1D26B9CD008B6975 /* XWDrawerAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				3793575D1D26B9CD008B6975 /* XWDrawerAnimator.h */,
+				3793575E1D26B9CD008B6975 /* XWDrawerAnimator.m */,
+			);
+			path = XWDrawerAnimator;
+			sourceTree = "<group>";
+		};
+		3793575F1D26B9CD008B6975 /* XWFilterAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				379357601D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.h */,
+				379357611D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.m */,
+				379357621D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.h */,
+				379357631D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.m */,
+				379357641D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.h */,
+				379357651D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.m */,
+				379357661D26B9CD008B6975 /* XWFilterAnimator+XWFlash.h */,
+				379357671D26B9CD008B6975 /* XWFilterAnimator+XWFlash.m */,
+				379357681D26B9CD008B6975 /* XWFilterAnimator+XWMask.h */,
+				379357691D26B9CD008B6975 /* XWFilterAnimator+XWMask.m */,
+				3793576A1D26B9CD008B6975 /* XWFilterAnimator+XWMod.h */,
+				3793576B1D26B9CD008B6975 /* XWFilterAnimator+XWMod.m */,
+				3793576C1D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.h */,
+				3793576D1D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.m */,
+				3793576E1D26B9CD008B6975 /* XWFilterAnimator+XWRipple.h */,
+				3793576F1D26B9CD008B6975 /* XWFilterAnimator+XWRipple.m */,
+				379357701D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.h */,
+				379357711D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.m */,
+				379357721D26B9CD008B6975 /* XWFilterAnimator.h */,
+				379357731D26B9CD008B6975 /* XWFilterAnimator.m */,
+				379357741D26B9CD008B6975 /* XWFilterTransitionView.h */,
+				379357751D26B9CD008B6975 /* XWFilterTransitionView.m */,
+			);
+			path = XWFilterAnimator;
+			sourceTree = "<group>";
+		};
+		379357761D26B9CD008B6975 /* XWMagicMoveAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				379357771D26B9CD008B6975 /* XWMagicMoveAnimator.h */,
+				379357781D26B9CD008B6975 /* XWMagicMoveAnimator.m */,
+			);
+			path = XWMagicMoveAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +345,9 @@
 			files = (
 				379356A11D25F812008B6975 /* LaunchScreen.storyboard in Resources */,
 				3793569E1D25F812008B6975 /* Assets.xcassets in Resources */,
-				3793569C1D25F812008B6975 /* Main.storyboard in Resources */,
+				3793577D1D26B9CD008B6975 /* line.png in Resources */,
+				3793577E1D26B9CD008B6975 /* mask.jpg in Resources */,
+				3793577F1D26B9CD008B6975 /* restrictedshine.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +358,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379356991D25F812008B6975 /* ViewController.swift in Sources */,
+				3793577B1D26B9CD008B6975 /* XWInteractiveTransition.m in Sources */,
+				3793577A1D26B9CD008B6975 /* UIViewController+XWTransition.m in Sources */,
+				3793578F1D26B9CD008B6975 /* XWFilterAnimator+XWMod.m in Sources */,
+				379357881D26B9CD008B6975 /* XWCoolAnimator.m in Sources */,
+				379357821D26B9CD008B6975 /* XWCoolAnimator+XWFold.m in Sources */,
+				379357901D26B9CD008B6975 /* XWFilterAnimator+XWPageCurl.m in Sources */,
+				3793577C1D26B9CD008B6975 /* XWTransitionAnimator.m in Sources */,
+				379357841D26B9CD008B6975 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */,
+				3793578C1D26B9CD008B6975 /* XWFilterAnimator+XWCopyMachine.m in Sources */,
+				379357931D26B9CD008B6975 /* XWFilterAnimator.m in Sources */,
+				379356A91D25F85C008B6975 /* Main.swift in Sources */,
+				3793578D1D26B9CD008B6975 /* XWFilterAnimator+XWFlash.m in Sources */,
+				379357921D26B9CD008B6975 /* XWFilterAnimator+XWSwipe.m in Sources */,
+				379357891D26B9CD008B6975 /* XWDrawerAnimator.m in Sources */,
+				379357851D26B9CD008B6975 /* XWCoolAnimator+XWPageFlip.m in Sources */,
 				379356971D25F812008B6975 /* AppDelegate.swift in Sources */,
+				3793578E1D26B9CD008B6975 /* XWFilterAnimator+XWMask.m in Sources */,
+				379357871D26B9CD008B6975 /* XWCoolAnimator+XWScanning.m in Sources */,
+				379357831D26B9CD008B6975 /* XWCoolAnimator+XWLines.m in Sources */,
+				379357911D26B9CD008B6975 /* XWFilterAnimator+XWRipple.m in Sources */,
+				379356AC1D25F91B008B6975 /* Second.swift in Sources */,
+				3793578A1D26B9CD008B6975 /* XWFilterAnimator+XWBarSwipe.m in Sources */,
+				379357801D26B9CD008B6975 /* XWCircleSpreadAnimator.m in Sources */,
+				379357791D26B9CD008B6975 /* UINavigationController+XWTransition.m in Sources */,
+				379357811D26B9CD008B6975 /* XWCoolAnimator+XWExplode.m in Sources */,
+				379357951D26B9CD008B6975 /* XWMagicMoveAnimator.m in Sources */,
+				3793578B1D26B9CD008B6975 /* XWFilterAnimator+XWBoxBlur.m in Sources */,
+				379357941D26B9CD008B6975 /* XWFilterTransitionView.m in Sources */,
+				379357861D26B9CD008B6975 /* XWCoolAnimator+XWPortal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3793569A1D25F812008B6975 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3793569B1D25F812008B6975 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3793569F1D25F812008B6975 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -253,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekbing.CircleSpread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CircleSpread/bridge.h;
 			};
 			name = Debug;
 		};
@@ -264,6 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekbing.CircleSpread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CircleSpread/bridge.h;
 			};
 			name = Release;
 		};
@@ -286,6 +530,7 @@
 				379356A71D25F812008B6975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
